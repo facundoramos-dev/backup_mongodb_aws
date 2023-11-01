@@ -96,7 +96,7 @@
 
 1. Entrar en un entorno de **AWS CLOUD9**.
 2. Seleccionar la instancia Cloud9 creada en el item anterior o elegir otra.
-3. Una vez que le aparezca la shell del entorno Cloud9 escribir los comandos
+3. Una vez que le aparezca la shell del entorno Cloud9 escribir los comandos:
 
    `# sudo su`
 
@@ -111,6 +111,13 @@
 ## Instalar MongoTools
 
 1. Entrar en un entorno de **AWS CLOUD9**.
+2. Una vez que le aparezca la shell del entorno Cloud9 escribir los comandos:
+
+   `# sudo su`
+
+   `# sudo yum install mongodb-org-tools-4.0.18`
+
+   > Le pedirá una confirmación ingrese la _y_ en su terminal y presione enter.
 
 ## Conectar el entorno Cloud9 con el cluster en DocumentDB
 
